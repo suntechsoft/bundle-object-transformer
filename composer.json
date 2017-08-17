@@ -1,0 +1,24 @@
+{
+  "name": "globalgames/bundle-object-transformer",
+  "type": "library",
+  "license": "proprietary",
+  "description": "Symfony bundle for integration ObjectTransformer component",
+  "authors": [
+    {
+      "name": "Matsenko Alexander",
+      "email": "a.matsenko@globalgames.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "GlobalGames\\Bundle\\ObjectTransformerBundle\\": "src/" }
+  },
+  "require": {
+    "globalgames/component-object-transformer": "0.1.*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:suntechsoft/component-object-transformer.git"
+    }
+  ]
+}

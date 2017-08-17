@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    php:
+        image: bundle-object-transformer-php
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+        volumes:
+            - .:/app:rw
